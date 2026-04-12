@@ -94,6 +94,82 @@ Includes:
 
 ---
 
+### **week-08-cv-image-creation-and-color**
+Introduction to computer vision with OpenCV — creating and manipulating images programmatically.
+
+Includes:
+- Creating black, white, grayscale, and color (BGR/RGB) images from scratch using NumPy arrays
+- Reading, displaying, and saving images with OpenCV
+- Color channel operations and basic pixel manipulation
+
+---
+
+### **week-09-cv-contrast-and-overlay**
+Image contrast enhancement and compositing techniques.
+
+Includes:
+- Computing intensity statistics (min, max, mean) on grayscale images
+- Min-max normalization to enhance contrast
+- Image overlay and alpha blending (logo/advert compositing)
+- Binary thresholding applied to fingerprint images
+
+---
+
+### **week-10-image-filtering-convolution**
+Spatial filtering, cross-correlation, and convolution from first principles.
+
+Includes:
+- Noise filtering on real images (corridor scene)
+- Manual cross-correlation and 2D convolution implementations
+- Slow vs fast convolution comparison against OpenCV's `cv2.filter2D`
+- Padding-based filtering to preserve image borders
+
+---
+
+### **week-11-edge-detection-and-hough-transform**
+Differential operators, edge detection, and circle detection.
+
+Includes:
+- First-order differential operations using Sobel filters (Ix, Iy, gradient magnitude)
+- Canny edge detection with threshold tuning
+- Hough circle transform for detecting circular features in images
+
+---
+
+### **week-12-mnist-pytorch-classifier**
+Deep learning with PyTorch — classifying handwritten digits.
+
+Includes:
+- Fully-connected neural network trained on the MNIST dataset
+- PyTorch DataLoader pipeline with transforms
+- Model checkpointing (network weights and optimizer state)
+
+---
+
+### **week-13-cnn-alexnet-cifar10**
+Convolutional neural networks and transfer learning on CIFAR-10.
+
+Includes:
+- AlexNet trained from scratch on CIFAR-10
+- Transfer learning: fine-tuning a pre-trained AlexNet (ImageNet) for CIFAR-10 classification
+- CIFAR-10 DataLoader setup, training loop, and accuracy/loss evaluation
+- Evaluation results notebook
+
+---
+
+### **week-14-yolov8-object-detection**
+Real-time object detection using YOLOv8 (Ultralytics).
+
+Includes:
+- Object detection with pre-trained YOLOv8 Nano and Extra-Large models
+- Bounding box extraction, class labels, and confidence scores
+- Custom datasets (Roboflow format) for two projects:
+  - **Aerial Cars** — detecting vehicles from aerial imagery
+  - **CanCounter** — counting cans in images
+- Training runs and model weights
+
+---
+
 ## Requirements
 
 Ensure Python is installed:
@@ -107,6 +183,9 @@ Recommended:
 - Spyder/VS Code
 - NumPy, Matplotlib, Pillow
 - scikit-learn
+- OpenCV (`cv2`)
+- PyTorch (`torch`, `torchvision`)
+- Ultralytics (`ultralytics`) for YOLOv8
 
 ## How to run
 Navigate to the desired directory and run any notebook or script:

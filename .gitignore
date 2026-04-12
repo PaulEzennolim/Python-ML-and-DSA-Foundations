@@ -13,3 +13,26 @@ __pycache__/
 # Virtual environment (if you create one)
 venv/
 .env/
+
+# PyTorch model weights
+*.pt
+*.pth
+
+# YOLOv8 training outputs
+runs/
+
+# Archives
+*.zip
+
+# Generated data files
+*.csv
+*.npz
+*.npy
+
+# Python packaging artifacts
+*.egg-info/
+dist/
+build/
+
+# Spyder project metadata
+.spyproject/
