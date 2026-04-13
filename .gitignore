@@ -14,9 +14,19 @@ __pycache__/
 venv/
 .env/
 
-# PyTorch model weights
+# PyTorch model weights and serialised models
 *.pt
 *.pth
+*.pkl
+
+# Compressed dataset archives
+*.gz
+*.tar
+*.tar.gz
+
+# Downloaded / generated datasets
+data/
+**/mnist_subset/
 
 # YOLOv8 training outputs
 runs/
@@ -28,6 +38,10 @@ runs/
 *.csv
 *.npz
 *.npy
+*.dat
+
+# IDE metadata
+.vscode/
 
 # Python packaging artifacts
 *.egg-info/

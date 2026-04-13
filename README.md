@@ -1,214 +1,157 @@
-# Python-DSA-Foundations
+# Python ML and DSA Foundations
 
-## Project Overview
-
-This repository contains a comprehensive collection of Python exercises, scripts, and Jupyter notebooks organized into weekly themes. Each week explores a major Data Structures & Algorithms (DSA) topic, progressing from fundamental programming concepts to advanced problem-solving techniques.  
-In addition to core DSA materials, the project includes mini-programs, data-analysis tools, image-processing scripts, dynamic animations, and machine-learning examples.
-
-## Project Structure
-
-### **week-01-arrays-and-python-basics**
-Foundational Python concepts, binary representation, introductory algorithms, and basic programs.
-
-Includes:
-- Getting-started scripts (input handling, converters, number checkers)
-- Intro notebooks (binary, static arrays, general Python review)
-- Simple standalone programs
+A comprehensive, 15-week curriculum covering **Data Structures & Algorithms**, **Computer Vision**, and **Machine Learning** in Python. Each week builds on the previous, progressing from fundamental programming through advanced deep-learning architectures. The repository includes Jupyter notebooks, standalone scripts, unit tests, and real-world datasets.
 
 ---
 
-### **week-02-hashmaps-sets-recursion**
-Covers hashmaps, sets, recursion, stacks, queues, and practical conditional-logic programs.
+## Table of Contents
 
-Includes:
-- Conditional and function-based programs
-- Hashmap/set notebooks
-- Recursion and stack/queue notebooks
-- SimpleCashPoint project with tests
-
----
-
-### **week-03-linked-lists-and-programs**
-Implementation and operations of singly and doubly linked lists, plus programs using iterative loops.
-
-Includes:
-- Loop-based programs (factorial, guessing game, Newton's method)
-- Linked list data-structure notebooks
-
----
-
-### **week-04-Binary-Search-trees-and-time-series-analysis**
-Binary search patterns, tree structures, and introductory data-analysis scripts.
-
-Includes:
-- Tree notebooks and binary search tutorials
-- Time-series analysis folder:
-  - Signal generation and plotting
-  - Moving-average filtering
-  - Noise datasets and processing tools
+| Week | Topic | Key Technologies |
+|------|-------|-----------------|
+| [01](week-01-arrays-and-python-basics/) | [Arrays and Python Basics](week-01-arrays-and-python-basics/) | Python, pytest |
+| [02](week-02-hashmaps-sets-recursion/) | [Hashmaps, Sets, and Recursion](week-02-hashmaps-sets-recursion/) | Python |
+| [03](week-03-linked-lists-and-programs/) | [Linked Lists and Loop-Based Programs](week-03-linked-lists-and-programs/) | Python |
+| [04](week-04-Binary-Search-trees-and-time-series-analysis/) | [Binary Search, Trees, and Time-Series Analysis](week-04-Binary-Search-trees-and-time-series-analysis/) | NumPy, Matplotlib |
+| [05](week-05-graphs-heaps-and-further-data-analysis/) | [Graphs, Heaps, Sorting, and Data Analysis](week-05-graphs-heaps-and-further-data-analysis/) | NumPy, Matplotlib |
+| [06](week-06-problem-solving-patterns-and-practical-applications/) | [Problem-Solving Patterns and Practical Applications](week-06-problem-solving-patterns-and-practical-applications/) | Pillow |
+| [07](week-07-dynamic-programming-and-animations/) | [Dynamic Programming and Shape Animations](week-07-dynamic-programming-and-animations/) | Matplotlib |
+| [08](week-08-ml-projects/) | [Machine Learning Projects](week-08-ml-projects/) | PyTorch, scikit-learn, pandas |
+| [09](week-09-cv-image-creation-and-color/) | [CV: Image Creation and Colour](week-09-cv-image-creation-and-color/) | OpenCV, NumPy |
+| [10](week-10-cv-contrast-and-overlay/) | [CV: Contrast Enhancement and Overlay](week-10-cv-contrast-and-overlay/) | OpenCV, NumPy |
+| [11](week-11-image-filtering-convolution/) | [Image Filtering and Convolution](week-11-image-filtering-convolution/) | OpenCV, NumPy |
+| [12](week-12-edge-detection-and-hough-transform/) | [Edge Detection and Hough Transform](week-12-edge-detection-and-hough-transform/) | OpenCV, NumPy |
+| [13](week-13-mnist-pytorch-classifier/) | [MNIST Digit Classifier (PyTorch)](week-13-mnist-pytorch-classifier/) | PyTorch, torchvision |
+| [14](week-14-cnn-alexnet-cifar10/) | [CNN and AlexNet on CIFAR-10](week-14-cnn-alexnet-cifar10/) | PyTorch, torchvision |
+| [15](week-15-yolov8-object-detection/) | [YOLOv8 Object Detection](week-15-yolov8-object-detection/) | Ultralytics |
 
 ---
 
-### **week-05-graphs-heaps-and-further-data-analysis**
-Graph algorithms and heap structures with additional data-analysis utilities.
+## Curriculum Overview
 
-Includes:
-- BFS/DFS graph exploration notebooks
-- Heap operations
-- Sorting algorithms
-- Further data analysis folder:
-  - Pulse-data exploration
-  - Binary pulse conversion
-  - Graph plotting scripts
+### Phase 1 — Data Structures and Algorithms (Weeks 01–07)
 
----
+Builds a strong foundation in classical DSA, starting from Python basics and progressing through increasingly complex data structures and algorithmic patterns.
 
-### **week-06-problem-solving-patterns-and-practical-applications**
-Core algorithmic patterns and applied programming exercises.
+- **Week 01** — Python fundamentals, binary representation, static arrays
+- **Week 02** — Hash maps, sets, recursion, stacks, and queues
+- **Week 03** — Singly and doubly linked lists, iterative programs
+- **Week 04** — Binary search, binary search trees, time-series analysis
+- **Week 05** — Graph traversal (BFS/DFS), heaps, sorting algorithms
+- **Week 06** — Two pointers, sliding window, recursive backtracking, image processing, lexical analysis
+- **Week 07** — Dynamic programming (memoisation, tabulation), OOP animation engine
 
-Includes:
-- Two-pointers techniques
-- Sliding-window patterns
-- Recursive backtracking
-- Image-processing folder:
-  - Pixel-based transformations
-  - Image effects (with PNG sample images)
-- Lexical analysis folder:
-  - Word counting programs
-  - Stopword filtering
-  - Large text samples (Moby Dick, George texts)
+### Phase 2 — Machine Learning (Week 08)
 
----
+Applied ML projects bridging classical algorithms and deep learning.
 
-### **week-07-dynamic-programming-animation-and-machine-learning**
-Dynamic-programming fundamentals and advanced applied programs.
+- **Week 08** — Random Forest (classification and regression with scikit-learn), robust MNIST classifier (ensemble ResNet CNNs with data augmentation and TTA)
 
-Includes:
-- Dynamic programming notebook
-- Shape animation project:
-  - Shape loading, movement simulation, multi-shape interaction
-  - Test suites for the animation engine
-- Random-forest algorithms:
-  - Classification and regression notebooks
-  - Titanic dataset experiments
+### Phase 3 — Computer Vision (Weeks 09–12)
 
----
+Progressive introduction to computer vision fundamentals using OpenCV, building from pixel-level operations to feature detection.
 
-### **week-08-cv-image-creation-and-color**
-Introduction to computer vision with OpenCV — creating and manipulating images programmatically.
+- **Week 09** — Image creation, colour spaces (grayscale, BGR, RGB), pixel manipulation
+- **Week 10** — Contrast enhancement (min-max normalisation), alpha blending, binary thresholding
+- **Week 11** — Spatial filtering, manual convolution implementation, performance benchmarking
+- **Week 12** — Sobel edge detection, Canny edge detector, Hough circle transform
 
-Includes:
-- Creating black, white, grayscale, and color (BGR/RGB) images from scratch using NumPy arrays
-- Reading, displaying, and saving images with OpenCV
-- Color channel operations and basic pixel manipulation
+### Phase 4 — Deep Learning (Weeks 13–15)
 
----
+End-to-end deep learning pipelines, from fully-connected networks through CNNs to real-time object detection.
 
-### **week-09-cv-contrast-and-overlay**
-Image contrast enhancement and compositing techniques.
-
-Includes:
-- Computing intensity statistics (min, max, mean) on grayscale images
-- Min-max normalization to enhance contrast
-- Image overlay and alpha blending (logo/advert compositing)
-- Binary thresholding applied to fingerprint images
-
----
-
-### **week-10-image-filtering-convolution**
-Spatial filtering, cross-correlation, and convolution from first principles.
-
-Includes:
-- Noise filtering on real images (corridor scene)
-- Manual cross-correlation and 2D convolution implementations
-- Slow vs fast convolution comparison against OpenCV's `cv2.filter2D`
-- Padding-based filtering to preserve image borders
-
----
-
-### **week-11-edge-detection-and-hough-transform**
-Differential operators, edge detection, and circle detection.
-
-Includes:
-- First-order differential operations using Sobel filters (Ix, Iy, gradient magnitude)
-- Canny edge detection with threshold tuning
-- Hough circle transform for detecting circular features in images
-
----
-
-### **week-12-mnist-pytorch-classifier**
-Deep learning with PyTorch — classifying handwritten digits.
-
-Includes:
-- Fully-connected neural network trained on the MNIST dataset
-- PyTorch DataLoader pipeline with transforms
-- Model checkpointing (network weights and optimizer state)
-
----
-
-### **week-13-cnn-alexnet-cifar10**
-Convolutional neural networks and transfer learning on CIFAR-10.
-
-Includes:
-- AlexNet trained from scratch on CIFAR-10
-- Transfer learning: fine-tuning a pre-trained AlexNet (ImageNet) for CIFAR-10 classification
-- CIFAR-10 DataLoader setup, training loop, and accuracy/loss evaluation
-- Evaluation results notebook
-
----
-
-### **week-14-yolov8-object-detection**
-Real-time object detection using YOLOv8 (Ultralytics).
-
-Includes:
-- Object detection with pre-trained YOLOv8 Nano and Extra-Large models
-- Bounding box extraction, class labels, and confidence scores
-- Custom datasets (Roboflow format) for two projects:
-  - **Aerial Cars** — detecting vehicles from aerial imagery
-  - **CanCounter** — counting cans in images
-- Training runs and model weights
+- **Week 13** — Fully-connected neural network on MNIST (PyTorch DataLoader, training loop, checkpointing)
+- **Week 14** — AlexNet on CIFAR-10 (from-scratch training and ImageNet transfer learning)
+- **Week 15** — YOLOv8 object detection (pre-trained inference and custom dataset training)
 
 ---
 
 ## Requirements
 
-Ensure Python is installed:
+### Python
 
 ```bash
-python --version
+python --version   # Python 3.8+ recommended
 ```
 
-Recommended:
-- Jupyter Notebook
-- Spyder/VS Code
-- NumPy, Matplotlib, Pillow
-- scikit-learn
-- OpenCV (`cv2`)
-- PyTorch (`torch`, `torchvision`)
-- Ultralytics (`ultralytics`) for YOLOv8
-
-## How to run
-Navigate to the desired directory and run any notebook or script:
+### Core Dependencies
 
 ```bash
-jupyter notebook <file_name>.ipynb
+pip install numpy matplotlib jupyter
 ```
 
-or
+### Domain-Specific Dependencies
+
+| Domain | Packages |
+|--------|----------|
+| Image processing | `Pillow` |
+| Machine learning | `scikit-learn`, `pandas` |
+| Computer vision | `opencv-python` |
+| Deep learning | `torch`, `torchvision` |
+| Object detection | `ultralytics` |
+
+### Quick Install (all dependencies)
 
 ```bash
-python <file_name>.py
+pip install numpy matplotlib jupyter pillow scikit-learn pandas opencv-python torch torchvision ultralytics
 ```
 
-Example:
+---
+
+## How to Run
+
+### Jupyter Notebooks
 
 ```bash
-python week-03/using-loops/factorial.py
+jupyter notebook
 ```
+
+Navigate to any `week-*/` folder and open the `.ipynb` file.
+
+### Python Scripts
+
+```bash
+python week-03-linked-lists-and-programs/using-loops/factorial.py
+```
+
+### Unit Tests
+
+```bash
+pytest week-01-arrays-and-python-basics/getting-started/
+pytest week-02-hashmaps-sets-recursion/conditionals-and-functions/
+pytest week-06-problem-solving-patterns-and-practical-applications/lexical-analysis/
+```
+
+---
+
+## Repository Structure
+
+```
+Python-ML-and-DSA-Foundations/
+├── week-01-arrays-and-python-basics/
+├── week-02-hashmaps-sets-recursion/
+├── week-03-linked-lists-and-programs/
+├── week-04-Binary-Search-trees-and-time-series-analysis/
+├── week-05-graphs-heaps-and-further-data-analysis/
+├── week-06-problem-solving-patterns-and-practical-applications/
+├── week-07-dynamic-programming-and-animations/
+├── week-08-ml-projects/
+├── week-09-cv-image-creation-and-color/
+├── week-10-cv-contrast-and-overlay/
+├── week-11-image-filtering-convolution/
+├── week-12-edge-detection-and-hough-transform/
+├── week-13-mnist-pytorch-classifier/
+├── week-14-cnn-alexnet-cifar10/
+├── week-15-yolov8-object-detection/
+└── README.md
+```
+
+---
 
 ## Contributing
-Contributions, improvements, or suggestions are welcomed.
+
+Contributions, improvements, and suggestions are welcome.
 Fork the repository, make changes, and submit a pull request.
 
 ## License
-This project is licensed under the MIT License – see the LICENSE file for details.
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.

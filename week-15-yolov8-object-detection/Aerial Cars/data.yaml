@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['0', '1', '2', '3']
+
+roboflow:
+  workspace: pian-jiangfeng-gmail-com
+  project: aerial-cars
+  version: 3
+  license: Public Domain
+  url: https://universe.roboflow.com/pian-jiangfeng-gmail-com/aerial-cars/dataset/3
