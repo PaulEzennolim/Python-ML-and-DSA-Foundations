@@ -9,7 +9,6 @@ Spatial filtering from first principles. Implements cross-correlation and 2D con
 | Path | Description |
 |------|-------------|
 | `image-filtering-convolution.py` | Noise filtering on corridor images, manual cross-correlation and 2D convolution, slow vs fast implementations, OpenCV comparison, padding-based border preservation |
-| `week_3_cross_correlation_and_covolution_playground.py` | Interactive playground for experimenting with correlation and convolution kernels |
 
 ## Key Concepts
 
