@@ -1,4 +1,4 @@
-# Week 13 — MNIST Digit Classifier with PyTorch
+# Week 14 — MNIST Digit Classifier with PyTorch
 
 ## Overview
 

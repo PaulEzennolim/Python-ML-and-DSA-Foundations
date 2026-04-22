@@ -1,4 +1,4 @@
-# Week 14 — CNN and AlexNet on CIFAR-10
+# Week 15 — CNN and AlexNet on CIFAR-10
 
 ## Overview
 

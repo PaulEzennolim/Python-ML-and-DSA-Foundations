@@ -1,6 +1,6 @@
 # Python ML and DSA Foundations
 
-A comprehensive, 15-week curriculum covering **Data Structures & Algorithms**, **Computer Vision**, and **Machine Learning** in Python. Each week builds on the previous, progressing from fundamental programming through advanced deep-learning architectures. The repository includes Jupyter notebooks, standalone scripts, unit tests, and real-world datasets.
+A comprehensive, 16-week curriculum covering **Data Structures & Algorithms**, **Computer Vision**, and **Machine Learning** in Python. Each week builds on the previous, progressing from fundamental programming through advanced deep-learning architectures. The repository includes Jupyter notebooks, standalone scripts, unit tests, and real-world datasets.
 
 ---
 
@@ -20,10 +20,10 @@ A comprehensive, 15-week curriculum covering **Data Structures & Algorithms**, *
 | [10](week-10-cv-contrast-and-overlay/) | [CV: Contrast Enhancement and Overlay](week-10-cv-contrast-and-overlay/) | OpenCV, NumPy |
 | [11](week-11-image-filtering-convolution/) | [Image Filtering and Convolution](week-11-image-filtering-convolution/) | OpenCV, NumPy |
 | [12](week-12-edge-detection-and-hough-transform/) | [Edge Detection and Hough Transform](week-12-edge-detection-and-hough-transform/) | OpenCV, NumPy |
-| [13](week-13-mnist-pytorch-classifier/) | [MNIST Digit Classifier (PyTorch)](week-13-mnist-pytorch-classifier/) | PyTorch, torchvision |
-| [14](week-14-cnn-alexnet-cifar10/) | [CNN and AlexNet on CIFAR-10](week-14-cnn-alexnet-cifar10/) | PyTorch, torchvision |
-| [15](week-15-yolov8-object-detection/) | [YOLOv8 Object Detection](week-15-yolov8-object-detection/) | Ultralytics |
-| [16](week-16-perspective-transform-and-sift/) | [Perspective Transform and SIFT](week-16-perspective-transform-and-sift/) | OpenCV, NumPy |
+| [13](week-13-perspective-transform-and-sift/) | [Perspective Transform and SIFT](week-13-perspective-transform-and-sift/) | OpenCV, NumPy |
+| [14](week-14-mnist-pytorch-classifier/) | [MNIST Digit Classifier (PyTorch)](week-14-mnist-pytorch-classifier/) | PyTorch, torchvision |
+| [15](week-15-cnn-alexnet-cifar10/) | [CNN and AlexNet on CIFAR-10](week-15-cnn-alexnet-cifar10/) | PyTorch, torchvision |
+| [16](week-16-yolov8-object-detection/) | [YOLOv8 Object Detection](week-16-yolov8-object-detection/) | Ultralytics |
 
 ---
 
@@ -47,23 +47,23 @@ Applied ML projects bridging classical algorithms and deep learning.
 
 - **Week 08** — Random Forest (classification and regression with scikit-learn), robust MNIST classifier (ensemble ResNet CNNs with data augmentation and TTA)
 
-### Phase 3 — Computer Vision (Weeks 09–12)
+### Phase 3 — Computer Vision (Weeks 09–13)
 
-Progressive introduction to computer vision fundamentals using OpenCV, building from pixel-level operations to feature detection.
+Progressive introduction to computer vision fundamentals using OpenCV, building from pixel-level operations through feature detection to geometric transformations and descriptor matching.
 
 - **Week 09** — Image creation, colour spaces (grayscale, BGR, RGB), pixel manipulation
 - **Week 10** — Contrast enhancement (min-max normalisation), alpha blending, binary thresholding
 - **Week 11** — Spatial filtering, manual convolution implementation, performance benchmarking
 - **Week 12** — Sobel edge detection, Canny edge detector, Hough circle transform
+- **Week 13** — Perspective (homography) transforms on video and SIFT feature matching between images
 
-### Phase 4 — Deep Learning (Weeks 13–15)
+### Phase 4 — Deep Learning (Weeks 14–16)
 
 End-to-end deep learning pipelines, from fully-connected networks through CNNs to real-time object detection.
 
-- **Week 13** — Fully-connected neural network on MNIST (PyTorch DataLoader, training loop, checkpointing)
-- **Week 14** — AlexNet on CIFAR-10 (from-scratch training and ImageNet transfer learning)
-- **Week 15** — YOLOv8 object detection (pre-trained inference and custom dataset training)
-- **Week 16** — Perspective (homography) transforms on video and SIFT feature matching between images
+- **Week 14** — Fully-connected neural network on MNIST (PyTorch DataLoader, training loop, checkpointing)
+- **Week 15** — AlexNet on CIFAR-10 (from-scratch training and ImageNet transfer learning)
+- **Week 16** — YOLOv8 object detection (pre-trained inference and custom dataset training)
 
 ---
 
@@ -141,10 +141,10 @@ Python-ML-and-DSA-Foundations/
 ├── week-10-cv-contrast-and-overlay/
 ├── week-11-image-filtering-convolution/
 ├── week-12-edge-detection-and-hough-transform/
-├── week-13-mnist-pytorch-classifier/
-├── week-14-cnn-alexnet-cifar10/
-├── week-15-yolov8-object-detection/
-├── week-16-perspective-transform-and-sift/
+├── week-13-perspective-transform-and-sift/
+├── week-14-mnist-pytorch-classifier/
+├── week-15-cnn-alexnet-cifar10/
+├── week-16-yolov8-object-detection/
 └── README.md
 ```
 
