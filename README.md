@@ -23,6 +23,7 @@ A comprehensive, 15-week curriculum covering **Data Structures & Algorithms**, *
 | [13](week-13-mnist-pytorch-classifier/) | [MNIST Digit Classifier (PyTorch)](week-13-mnist-pytorch-classifier/) | PyTorch, torchvision |
 | [14](week-14-cnn-alexnet-cifar10/) | [CNN and AlexNet on CIFAR-10](week-14-cnn-alexnet-cifar10/) | PyTorch, torchvision |
 | [15](week-15-yolov8-object-detection/) | [YOLOv8 Object Detection](week-15-yolov8-object-detection/) | Ultralytics |
+| [16](week-16-perspective-transform-and-sift/) | [Perspective Transform and SIFT](week-16-perspective-transform-and-sift/) | OpenCV, NumPy |
 
 ---
 
@@ -62,6 +63,7 @@ End-to-end deep learning pipelines, from fully-connected networks through CNNs t
 - **Week 13** — Fully-connected neural network on MNIST (PyTorch DataLoader, training loop, checkpointing)
 - **Week 14** — AlexNet on CIFAR-10 (from-scratch training and ImageNet transfer learning)
 - **Week 15** — YOLOv8 object detection (pre-trained inference and custom dataset training)
+- **Week 16** — Perspective (homography) transforms on video and SIFT feature matching between images
 
 ---
 
@@ -142,6 +144,7 @@ Python-ML-and-DSA-Foundations/
 ├── week-13-mnist-pytorch-classifier/
 ├── week-14-cnn-alexnet-cifar10/
 ├── week-15-yolov8-object-detection/
+├── week-16-perspective-transform-and-sift/
 └── README.md
 ```
 
