@@ -31,12 +31,12 @@ ipython>=8.0                    # week 05 (IPython.display.Image)
 # Weeks 06-07 — Problem-solving patterns, dynamic programming, animations
 #     pytest already declared; pylab/turtle ship with matplotlib/Python
 # ─────────────────────────────────────────────────────────────────────────
-Pillow>=9.0                     # week 06 image-processing; also weeks 08, 17
+Pillow>=9.0                     # week 06 image-processing; also weeks 08, 16
 
 # ─────────────────────────────────────────────────────────────────────────
 # Week 08 — ML projects: Random Forest + robust MNIST (ResNet ensemble + TTA)
 # ─────────────────────────────────────────────────────────────────────────
-scikit-learn>=1.2               # also weeks 14, 15, 17
+scikit-learn>=1.2               # also weeks 14, 15, 16
 pandas>=1.5
 joblib>=1.2
 
@@ -45,7 +45,7 @@ joblib>=1.2
 #     image creation/colour, contrast, filtering, edges/Hough,
 #     perspective transforms and SIFT
 # ─────────────────────────────────────────────────────────────────────────
-opencv-python>=4.7              # weeks 09-13; also week 16
+opencv-python>=4.7              # weeks 09-13; also week 17
 
 # ─────────────────────────────────────────────────────────────────────────
 # Week 14 — MNIST PyTorch classifier (FNN with DataLoader + checkpoints)
@@ -59,13 +59,13 @@ torchvision>=0.15               # also weeks 15-17
 torchsummary>=1.5
 
 # ─────────────────────────────────────────────────────────────────────────
-# Week 16 — YOLOv8 object detection (pre-trained + custom training)
-# ─────────────────────────────────────────────────────────────────────────
-ultralytics>=8.0
-gdown>=5.0                      # download datasets from Google Drive
-
-# ─────────────────────────────────────────────────────────────────────────
-# Week 17 — FCN semantic segmentation (PASCAL VOC + JSRT chest radiographs)
+# Week 16 — FCN semantic segmentation (PASCAL VOC + JSRT chest radiographs)
 # ─────────────────────────────────────────────────────────────────────────
 scikit-image>=0.20
 tqdm>=4.64
+
+# ─────────────────────────────────────────────────────────────────────────
+# Week 17 — YOLOv8 object detection (pre-trained + custom training)
+# ─────────────────────────────────────────────────────────────────────────
+ultralytics>=8.0
+gdown>=5.0                      # download datasets from Google Drive

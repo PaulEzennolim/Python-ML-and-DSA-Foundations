@@ -1,4 +1,4 @@
-# Week 16 — YOLOv8 Object Detection
+# Week 17 — YOLOv8 Object Detection
 
 ## Overview
 

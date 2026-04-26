@@ -23,8 +23,8 @@ A comprehensive, 17-week curriculum covering **Data Structures & Algorithms**, *
 | [13](week-13-perspective-transform-and-sift/) | [Perspective Transform and SIFT](week-13-perspective-transform-and-sift/) | OpenCV, NumPy |
 | [14](week-14-mnist-pytorch-classifier/) | [MNIST Digit Classifier (PyTorch)](week-14-mnist-pytorch-classifier/) | PyTorch, torchvision |
 | [15](week-15-cnn-alexnet-cifar10/) | [CNN and AlexNet on CIFAR-10](week-15-cnn-alexnet-cifar10/) | PyTorch, torchvision |
-| [16](week-16-yolov8-object-detection/) | [YOLOv8 Object Detection](week-16-yolov8-object-detection/) | Ultralytics |
-| [17](week-17-fcn-segmentation/) | [FCN Semantic Segmentation](week-17-fcn-segmentation/) | PyTorch, torchvision, scikit-image |
+| [16](week-16-fcn-segmentation/) | [FCN Semantic Segmentation](week-16-fcn-segmentation/) | PyTorch, torchvision, scikit-image |
+| [17](week-17-yolov8-object-detection/) | [YOLOv8 Object Detection](week-17-yolov8-object-detection/) | Ultralytics |
 
 ---
 
@@ -64,8 +64,8 @@ End-to-end deep learning pipelines, from fully-connected networks through CNNs t
 
 - **Week 14** — Fully-connected neural network on MNIST (PyTorch DataLoader, training loop, checkpointing)
 - **Week 15** — AlexNet on CIFAR-10 (from-scratch training and ImageNet transfer learning)
-- **Week 16** — YOLOv8 object detection (pre-trained inference and custom dataset training)
-- **Week 17** — Fully Convolutional Networks for semantic segmentation (pre-trained `fcn_resnet50/101` on PASCAL VOC, FCN-AlexNet with skip connections trained on JSRT chest radiographs for clavicle/lung/heart segmentation)
+- **Week 16** — Fully Convolutional Networks for semantic segmentation (pre-trained `fcn_resnet50/101` on PASCAL VOC, FCN-AlexNet with skip connections trained on JSRT chest radiographs for clavicle/lung/heart segmentation)
+- **Week 17** — YOLOv8 object detection (pre-trained inference and custom dataset training)
 
 ---
 
@@ -149,8 +149,8 @@ Python-ML-and-DSA-Foundations/
 ├── week-13-perspective-transform-and-sift/
 ├── week-14-mnist-pytorch-classifier/
 ├── week-15-cnn-alexnet-cifar10/
-├── week-16-yolov8-object-detection/
-├── week-17-fcn-segmentation/
+├── week-16-fcn-segmentation/
+├── week-17-yolov8-object-detection/
 └── README.md
 ```
 

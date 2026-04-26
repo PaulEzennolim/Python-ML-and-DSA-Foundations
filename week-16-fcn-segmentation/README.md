@@ -1,4 +1,4 @@
-# Week 17 — FCN Semantic Segmentation
+# Week 16 — FCN Semantic Segmentation
 
 ## Overview
 
@@ -8,8 +8,8 @@ Fully Convolutional Networks for semantic segmentation. Compares pre-trained `fc
 
 | Path | Description |
 |------|-------------|
-| `notebooks/01_pretrained_voc_benchmark.ipynb` | Pre-trained FCN inference on natural images, ResNet-50 vs ResNet-101 comparison with the PASCAL VOC palette overlay |
-| `notebooks/02_jsrt_anatomical_segmentation.ipynb` | End-to-end FCN-AlexNet training on JSRT chest X-rays, IoU and Dice evaluation, per-epoch visualisations |
+| `01_pretrained_voc_benchmark.ipynb` | Pre-trained FCN inference on natural images, ResNet-50 vs ResNet-101 comparison with the PASCAL VOC palette overlay |
+| `02_jsrt_anatomical_segmentation.ipynb` | End-to-end FCN-AlexNet training on JSRT chest X-rays, IoU and Dice evaluation, per-epoch visualisations |
 | `dog1.jpg`, `sample_01.jpg`–`sample_05.jpg` | Test images for the VOC benchmark notebook |
 
 ## Key Concepts
