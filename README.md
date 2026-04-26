@@ -1,6 +1,6 @@
 # Python ML and DSA Foundations
 
-A comprehensive, 16-week curriculum covering **Data Structures & Algorithms**, **Computer Vision**, and **Machine Learning** in Python. Each week builds on the previous, progressing from fundamental programming through advanced deep-learning architectures. The repository includes Jupyter notebooks, standalone scripts, unit tests, and real-world datasets.
+A comprehensive, 17-week curriculum covering **Data Structures & Algorithms**, **Computer Vision**, and **Machine Learning** in Python. Each week builds on the previous, progressing from fundamental programming through advanced deep-learning architectures. The repository includes Jupyter notebooks, standalone scripts, unit tests, and real-world datasets.
 
 ---
 
@@ -24,6 +24,7 @@ A comprehensive, 16-week curriculum covering **Data Structures & Algorithms**, *
 | [14](week-14-mnist-pytorch-classifier/) | [MNIST Digit Classifier (PyTorch)](week-14-mnist-pytorch-classifier/) | PyTorch, torchvision |
 | [15](week-15-cnn-alexnet-cifar10/) | [CNN and AlexNet on CIFAR-10](week-15-cnn-alexnet-cifar10/) | PyTorch, torchvision |
 | [16](week-16-yolov8-object-detection/) | [YOLOv8 Object Detection](week-16-yolov8-object-detection/) | Ultralytics |
+| [17](week-17-fcn-segmentation/) | [FCN Semantic Segmentation](week-17-fcn-segmentation/) | PyTorch, torchvision, scikit-image |
 
 ---
 
@@ -57,13 +58,14 @@ Progressive introduction to computer vision fundamentals using OpenCV, building 
 - **Week 12** — Sobel edge detection, Canny edge detector, Hough circle transform
 - **Week 13** — Perspective (homography) transforms on video and SIFT feature matching between images
 
-### Phase 4 — Deep Learning (Weeks 14–16)
+### Phase 4 — Deep Learning (Weeks 14–17)
 
-End-to-end deep learning pipelines, from fully-connected networks through CNNs to real-time object detection.
+End-to-end deep learning pipelines, from fully-connected networks through CNNs to real-time object detection and semantic segmentation.
 
 - **Week 14** — Fully-connected neural network on MNIST (PyTorch DataLoader, training loop, checkpointing)
 - **Week 15** — AlexNet on CIFAR-10 (from-scratch training and ImageNet transfer learning)
 - **Week 16** — YOLOv8 object detection (pre-trained inference and custom dataset training)
+- **Week 17** — Fully Convolutional Networks for semantic segmentation (pre-trained `fcn_resnet50/101` on PASCAL VOC, FCN-AlexNet with skip connections trained on JSRT chest radiographs for clavicle/lung/heart segmentation)
 
 ---
 
@@ -90,11 +92,14 @@ pip install numpy matplotlib jupyter
 | Computer vision | `opencv-python` |
 | Deep learning | `torch`, `torchvision` |
 | Object detection | `ultralytics` |
+| Semantic segmentation | `torch`, `torchvision`, `scikit-image` |
 
 ### Quick Install (all dependencies)
 
+The full set of dependencies for every week is pinned in [requirements.txt](requirements.txt), organised week-by-week:
+
 ```bash
-pip install numpy matplotlib jupyter pillow scikit-learn pandas opencv-python torch torchvision ultralytics
+pip install -r requirements.txt
 ```
 
 ---
@@ -145,6 +150,7 @@ Python-ML-and-DSA-Foundations/
 ├── week-14-mnist-pytorch-classifier/
 ├── week-15-cnn-alexnet-cifar10/
 ├── week-16-yolov8-object-detection/
+├── week-17-fcn-segmentation/
 └── README.md
 ```
 

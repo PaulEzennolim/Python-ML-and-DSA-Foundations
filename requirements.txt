@@ -1,0 +1,71 @@
+# Python ML and DSA Foundations — combined requirements
+#
+# Install everything:
+#     pip install -r requirements.txt
+#
+# Organised week-by-week. Each package is listed once, in the section
+# where it is first introduced; trailing comments record any later weeks
+# that reuse it. Sections build cumulatively — installing through Week N
+# means everything above has already been installed.
+
+# ─────────────────────────────────────────────────────────────────────────
+# Core (used across most weeks)
+# ─────────────────────────────────────────────────────────────────────────
+jupyter>=1.0                    # all notebook-based weeks (04-17)
+numpy>=1.23                     # weeks 04, 05, 08-17
+matplotlib>=3.6                 # weeks 04, 05, 08-17 (incl. pylab)
+
+# ─────────────────────────────────────────────────────────────────────────
+# Weeks 01-03 — Python basics, hashmaps/sets/recursion, linked lists
+#     stdlib only for the exercises themselves; pytest for the unit tests
+# ─────────────────────────────────────────────────────────────────────────
+pytest>=7.0                     # also weeks 06, 07
+
+# ─────────────────────────────────────────────────────────────────────────
+# Weeks 04-05 — Binary search/trees + time series, graphs/heaps
+#     numpy + matplotlib (already in core), plus inline IPython display
+# ─────────────────────────────────────────────────────────────────────────
+ipython>=8.0                    # week 05 (IPython.display.Image)
+
+# ─────────────────────────────────────────────────────────────────────────
+# Weeks 06-07 — Problem-solving patterns, dynamic programming, animations
+#     pytest already declared; pylab/turtle ship with matplotlib/Python
+# ─────────────────────────────────────────────────────────────────────────
+Pillow>=9.0                     # week 06 image-processing; also weeks 08, 17
+
+# ─────────────────────────────────────────────────────────────────────────
+# Week 08 — ML projects: Random Forest + robust MNIST (ResNet ensemble + TTA)
+# ─────────────────────────────────────────────────────────────────────────
+scikit-learn>=1.2               # also weeks 14, 15, 17
+pandas>=1.5
+joblib>=1.2
+
+# ─────────────────────────────────────────────────────────────────────────
+# Weeks 09-13 — Computer vision with OpenCV
+#     image creation/colour, contrast, filtering, edges/Hough,
+#     perspective transforms and SIFT
+# ─────────────────────────────────────────────────────────────────────────
+opencv-python>=4.7              # weeks 09-13; also week 16
+
+# ─────────────────────────────────────────────────────────────────────────
+# Week 14 — MNIST PyTorch classifier (FNN with DataLoader + checkpoints)
+# ─────────────────────────────────────────────────────────────────────────
+torch>=2.0                      # also weeks 08, 15-17
+torchvision>=0.15               # also weeks 15-17
+
+# ─────────────────────────────────────────────────────────────────────────
+# Week 15 — CNN and AlexNet on CIFAR-10 (from-scratch + transfer learning)
+# ─────────────────────────────────────────────────────────────────────────
+torchsummary>=1.5
+
+# ─────────────────────────────────────────────────────────────────────────
+# Week 16 — YOLOv8 object detection (pre-trained + custom training)
+# ─────────────────────────────────────────────────────────────────────────
+ultralytics>=8.0
+gdown>=5.0                      # download datasets from Google Drive
+
+# ─────────────────────────────────────────────────────────────────────────
+# Week 17 — FCN semantic segmentation (PASCAL VOC + JSRT chest radiographs)
+# ─────────────────────────────────────────────────────────────────────────
+scikit-image>=0.20
+tqdm>=4.64

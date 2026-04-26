@@ -9,15 +9,22 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*$py.class
+*.so
+.Python
 
 # Virtual environment (if you create one)
 venv/
+.venv/
+env/
 .env/
+.python-version
 
 # PyTorch model weights and serialised models
 *.pt
 *.pth
 *.pkl
+*.ckpt
 
 # Compressed dataset archives
 *.gz
@@ -27,9 +34,13 @@ venv/
 # Downloaded / generated datasets
 data/
 **/mnist_subset/
+jsrt/
 
-# YOLOv8 training outputs
+# YOLOv8 training outputs / experiment logs
 runs/
+logs/
+wandb/
+mlruns/
 
 # Archives
 *.zip
@@ -42,11 +53,20 @@ runs/
 
 # IDE metadata
 .vscode/
+.idea/
+
+# OS metadata
+Thumbs.db
+
+# Jupyter export artefacts
+*.nbconvert.ipynb
 
 # Python packaging artifacts
 *.egg-info/
+*.egg
 dist/
 build/
+pip-wheel-metadata/
 
 # Spyder project metadata
 .spyproject/
