@@ -64,7 +64,7 @@ End-to-end deep learning pipelines, from fully-connected networks through CNNs t
 
 - **Week 14** — Fully-connected neural network on MNIST (PyTorch DataLoader, training loop, checkpointing)
 - **Week 15** — AlexNet on CIFAR-10 (from-scratch training and ImageNet transfer learning)
-- **Week 16** — Fully Convolutional Networks for semantic segmentation (pre-trained `fcn_resnet50/101` on PASCAL VOC, FCN-AlexNet with skip connections trained on JSRT chest radiographs for clavicle/lung/heart segmentation)
+- **Week 16** — Fully Convolutional Networks for semantic segmentation
 - **Week 17** — YOLOv8 object detection (pre-trained inference and custom dataset training)
 
 ---
@@ -91,8 +91,8 @@ pip install numpy matplotlib jupyter
 | Machine learning | `scikit-learn`, `pandas` |
 | Computer vision | `opencv-python` |
 | Deep learning | `torch`, `torchvision` |
-| Object detection | `ultralytics` |
 | Semantic segmentation | `torch`, `torchvision`, `scikit-image` |
+| Object detection | `ultralytics` |
 
 ### Quick Install (all dependencies)
 
