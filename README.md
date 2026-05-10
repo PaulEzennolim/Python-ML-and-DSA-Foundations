@@ -1,6 +1,6 @@
 # Python ML and DSA Foundations
 
-A comprehensive, 18-week curriculum covering **Data Structures & Algorithms**, **Computer Vision**, and **Machine Learning** in Python. Each week builds on the previous, progressing from fundamental programming through advanced deep-learning architectures. The repository includes Jupyter notebooks, standalone scripts, unit tests, and real-world datasets.
+A comprehensive, 19-week curriculum covering **Data Structures & Algorithms**, **Computer Vision**, and **Machine Learning** in Python. Each week builds on the previous, progressing from fundamental programming through advanced deep-learning architectures. The repository includes Jupyter notebooks, standalone scripts, unit tests, and real-world datasets.
 
 ---
 
@@ -26,6 +26,7 @@ A comprehensive, 18-week curriculum covering **Data Structures & Algorithms**, *
 | [16](week-16-fcn-segmentation/) | [FCN Semantic Segmentation](week-16-fcn-segmentation/) | PyTorch, torchvision, scikit-image |
 | [17](week-17-yolov8-object-detection/) | [YOLOv8 Object Detection](week-17-yolov8-object-detection/) | Ultralytics |
 | [18](week-18-image-transformations/) | [Image Transformations](week-18-image-transformations/) | OpenCV, NumPy, scikit-image |
+| [19](week-19-hough-transform/) | [Hough Transforms and Planar Rectification](week-19-hough-transform/) | OpenCV, NumPy, scikit-image |
 
 ---
 
@@ -68,11 +69,12 @@ End-to-end deep learning pipelines, from fully-connected networks through CNNs t
 - **Week 16** — Fully Convolutional Networks for semantic segmentation
 - **Week 17** — YOLOv8 object detection (pre-trained inference and custom dataset training)
 
-### Phase 5 — Geometric Computer Vision (Week 18)
+### Phase 5 — Geometric Computer Vision (Weeks 18–19)
 
-A short return to CV fundamentals — building affine transforms from first principles before relying on library wrappers.
+A short return to CV fundamentals — building affine transforms and feature-detection primitives from first principles before relying on library wrappers.
 
 - **Week 18** — 2D image transformations in homogeneous coordinates: hand-built rotation, translation, and scaling matrices; matrix composition non-commutativity; image warping with `cv2.warpAffine` using the centre-of-rotation pattern
+- **Week 19** — Hough transforms for line and circle detection (`cv2.HoughLines`, `cv2.HoughLinesP`, `cv2.HoughCircles`) and planar rectification (`cv2.getPerspectiveTransform` + `cv2.warpPerspective`) as preprocessing that concentrates Hough votes into sharper peaks
 
 ---
 
@@ -159,6 +161,7 @@ Python-ML-and-DSA-Foundations/
 ├── week-16-fcn-segmentation/
 ├── week-17-yolov8-object-detection/
 ├── week-18-image-transformations/
+├── week-19-hough-transform/
 └── README.md
 ```
 

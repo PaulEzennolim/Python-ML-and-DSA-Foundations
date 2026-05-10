@@ -26,9 +26,3 @@ pip install -r ../requirements.txt   # consolidated at repo root
 
 jupyter notebook image-transformations.ipynb
 ```
-
-The notebook embeds its own outputs, so GitHub viewers can read results without executing anything. To regenerate the embedded outputs locally:
-
-```bash
-jupyter nbconvert --to notebook --execute --inplace image-transformations.ipynb
-```
