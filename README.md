@@ -1,6 +1,6 @@
 # Python ML and DSA Foundations
 
-A comprehensive, 17-week curriculum covering **Data Structures & Algorithms**, **Computer Vision**, and **Machine Learning** in Python. Each week builds on the previous, progressing from fundamental programming through advanced deep-learning architectures. The repository includes Jupyter notebooks, standalone scripts, unit tests, and real-world datasets.
+A comprehensive, 18-week curriculum covering **Data Structures & Algorithms**, **Computer Vision**, and **Machine Learning** in Python. Each week builds on the previous, progressing from fundamental programming through advanced deep-learning architectures. The repository includes Jupyter notebooks, standalone scripts, unit tests, and real-world datasets.
 
 ---
 
@@ -25,6 +25,7 @@ A comprehensive, 17-week curriculum covering **Data Structures & Algorithms**, *
 | [15](week-15-cnn-alexnet-cifar10/) | [CNN and AlexNet on CIFAR-10](week-15-cnn-alexnet-cifar10/) | PyTorch, torchvision |
 | [16](week-16-fcn-segmentation/) | [FCN Semantic Segmentation](week-16-fcn-segmentation/) | PyTorch, torchvision, scikit-image |
 | [17](week-17-yolov8-object-detection/) | [YOLOv8 Object Detection](week-17-yolov8-object-detection/) | Ultralytics |
+| [18](week-18-image-transformations/) | [Image Transformations](week-18-image-transformations/) | OpenCV, NumPy, scikit-image |
 
 ---
 
@@ -66,6 +67,12 @@ End-to-end deep learning pipelines, from fully-connected networks through CNNs t
 - **Week 15** — AlexNet on CIFAR-10 (from-scratch training and ImageNet transfer learning)
 - **Week 16** — Fully Convolutional Networks for semantic segmentation
 - **Week 17** — YOLOv8 object detection (pre-trained inference and custom dataset training)
+
+### Phase 5 — Geometric Computer Vision (Week 18)
+
+A short return to CV fundamentals — building affine transforms from first principles before relying on library wrappers.
+
+- **Week 18** — 2D image transformations in homogeneous coordinates: hand-built rotation, translation, and scaling matrices; matrix composition non-commutativity; image warping with `cv2.warpAffine` using the centre-of-rotation pattern
 
 ---
 
@@ -151,6 +158,7 @@ Python-ML-and-DSA-Foundations/
 ├── week-15-cnn-alexnet-cifar10/
 ├── week-16-fcn-segmentation/
 ├── week-17-yolov8-object-detection/
+├── week-18-image-transformations/
 └── README.md
 ```
 
