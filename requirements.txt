@@ -11,9 +11,9 @@
 # ─────────────────────────────────────────────────────────────────────────
 # Core (used across most weeks)
 # ─────────────────────────────────────────────────────────────────────────
-jupyter>=1.0                    # all notebook-based weeks (04-17)
-numpy>=1.23                     # weeks 04, 05, 08-17
-matplotlib>=3.6                 # weeks 04, 05, 08-17 (incl. pylab)
+jupyter>=1.0                    # all notebook-based weeks (04-19)
+numpy>=1.23                     # weeks 04, 05, 08-19
+matplotlib>=3.6                 # weeks 04, 05, 08-19 (incl. pylab)
 
 # ─────────────────────────────────────────────────────────────────────────
 # Weeks 01-03 — Python basics, hashmaps/sets/recursion, linked lists
@@ -45,7 +45,7 @@ joblib>=1.2
 #     image creation/colour, contrast, filtering, edges/Hough,
 #     perspective transforms and SIFT
 # ─────────────────────────────────────────────────────────────────────────
-opencv-python>=4.7              # weeks 09-13; also week 17
+opencv-python>=4.7              # weeks 09-13; also weeks 17-19
 
 # ─────────────────────────────────────────────────────────────────────────
 # Week 14 — MNIST PyTorch classifier (FNN with DataLoader + checkpoints)
@@ -61,7 +61,7 @@ torchsummary>=1.5
 # ─────────────────────────────────────────────────────────────────────────
 # Week 16 — FCN semantic segmentation (PASCAL VOC + JSRT chest radiographs)
 # ─────────────────────────────────────────────────────────────────────────
-scikit-image>=0.20
+scikit-image>=0.20              # also weeks 18, 19
 tqdm>=4.64
 
 # ─────────────────────────────────────────────────────────────────────────
@@ -69,3 +69,9 @@ tqdm>=4.64
 # ─────────────────────────────────────────────────────────────────────────
 ultralytics>=8.0
 gdown>=5.0                      # download datasets from Google Drive
+
+# ─────────────────────────────────────────────────────────────────────────
+# Weeks 18-19 — Geometric CV: image transformations + Hough transforms
+#     no new dependencies — uses opencv-python, numpy, matplotlib,
+#     and scikit-image (all declared above)
+# ─────────────────────────────────────────────────────────────────────────
